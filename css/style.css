@@ -93,6 +93,36 @@ header {
     margin: 0 auto;
 }
 
+.pb30 {
+    padding-bottom: 30px;
+ }
+
 .carousel-indicators {
+    text-align: center;
+
 
 }
+
+.carousel-indicators li, .carousel-indicators .active {
+    width: 25px;
+    height: 10px;
+    border: none;
+    background: #faff2d;
+    border-radius: 20px;
+}
+
+.carousel-indicators .active {
+    background: #183fbe;
+}
+
+.carousel-control{
+    background: none;
+    background-image: none !important;
+}
+
+
+
+
+
+
+

@@ -3,6 +3,13 @@
     src: url(../fonts/ballpark.ttf);
 }
 
+* {
+    margin:0; padding:0;
+    font-size:inherit;
+    color:inherit;
+    -webkit-font-smoothing: antialiased;
+}
+
 a {
     text-decoration: none;
 }
@@ -20,6 +27,7 @@ body {
 .top-block {
     background: url('../images/bg-top.png') repeat 0 0;
     border-bottom: 4px solid #242424;
+    padding-bottom: 85px;
 }
 
 header {
@@ -86,6 +94,14 @@ header {
     padding: 11px 25px;
 }
 
+.col-md-5 h3 {
+    margin-bottom: 35px;
+}
+
+.col-md-5 p {
+    margin-bottom: 27px;
+}
+
 .carousel-inner img {
     display: block;
     width: 100%;
@@ -107,17 +123,56 @@ header {
     width: 25px;
     height: 10px;
     border: none;
-    background: #faff2d;
+    background: #888888;
     border-radius: 20px;
 }
 
 .carousel-indicators .active {
-    background: #183fbe;
+    background: #bebebe;
 }
 
 .carousel-control{
     background: none;
     background-image: none !important;
+}
+
+.what {
+    display: block;
+    background: #fff;
+    color: #696969;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: -65px;
+    padding: 20px;
+    overflow: hidden;
+    width: 23%;
+}
+
+.white h4 {
+    color: #252525;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.grey {
+    color: #c3c3c3;
+}
+
+.read-more {
+    color: #333;
+    font-size: 12px;
+    text-transform: capitalize;
+    font-weight: bold;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    background: url(../images/divider.png) repeat-x 0 0;
+    display: block;
+}
+
+.read-more:hover {
+    background: url(../images/divide_bg.png) repeat-x 0 100% #777;
+    color: #fff;
+    transition: 1.5s background;
 }
 
 

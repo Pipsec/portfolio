@@ -9,6 +9,7 @@
     color:inherit;
     -webkit-font-smoothing: antialiased;
 }
+ul {list-style: none}
 
 a {
     text-decoration: none;
@@ -135,17 +136,20 @@ header {
     background: none;
     background-image: none !important;
 }
-
-.what {
-    display: block;
+.white {
     background: #fff;
-    color: #696969;
-    margin-left: 10px;
-    margin-right: 10px;
+    color: #333333;
+}
+
+.white, .row {
+    display: block;
+
+}
+
+.text-info {
+    padding: 25px;
     margin-top: -65px;
-    padding: 20px;
-    overflow: hidden;
-    width: 23%;
+    background: #fff;
 }
 
 .white h4 {
@@ -172,12 +176,48 @@ header {
 .read-more:hover {
     background: url(../images/divide_bg.png) repeat-x 0 100% #777;
     color: #fff;
-    transition: 1.5s background;
+    transition: 1.5s all;
+}
+
+.w100 {
+    width: 100%;
+}
+
+.title-recent {
+    margin-left: 25px;
+    padding-bottom: 50px;
+    margin-bottom: 30px;
+    background: url(../images/divider.png) repeat-x 100%;
+}
+
+.recent {
+    position: relative;
+    display: block;
+}
+
+.recent:hover .info {
+    display: block!important;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url(../images/glass.png) no-repeat 50% 50% rgba(0, 0, 0,.75);
+}
+
+.info li {
+    display: inline-block;
+    margin-right: 25px;
+    color: #fff;
 }
 
 
+.info ul {
+    position: absolute;
+    bottom: 10px;
+    padding-left: 19px;
+}
 
-
-
-
-
+.mb20 {
+    margin-bottom: 20px;
+}

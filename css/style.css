@@ -86,6 +86,10 @@ header {
      outline: none;
  }
 
+ button img {
+     padding-left: 10px;
+ }
+
 .middle-button {
     font-size: 13px;
     color: white;
@@ -139,6 +143,7 @@ header {
 .white {
     background: #fff;
     color: #333333;
+    padding-bottom: 49px;
 }
 
 .white, .row {
@@ -220,4 +225,35 @@ header {
 
 .mb20 {
     margin-bottom: 20px;
+}
+
+.top-footer {
+    background: url('../images/bg-top.png') repeat 0 0;
+    border-top: 4px solid #242424;
+    padding: 35px 0 30px;
+}
+
+.footer-title {
+    color: #fff;
+    font-size: 16px;
+    text-transform: capitalize;
+    font-weight: bold;
+    padding-bottom: 21px;
+    border-bottom: 1px solid #6a6a6a;
+}
+
+.widget-block {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 12px;
+}
+
+.bottom-footer {
+    background: url(../images/footer.png) repeat 0 0;
+    padding: 20px 0;
+}
+
+.bottom-footer, .bottom-footer a {
+    color: #808080;
+    line-height: 1;
 }

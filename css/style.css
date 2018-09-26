@@ -9,7 +9,8 @@
     color:inherit;
     -webkit-font-smoothing: antialiased;
 }
-ul {list-style: none}
+ul {list-style: none;
+}
 
 a {
     text-decoration: none;
